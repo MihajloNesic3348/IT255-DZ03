@@ -1,0 +1,29 @@
+#tableAdd {
+    margin-bottom: 20px;
+}
+
+#students {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+#students td, #students th {
+    border: 1px solid #292929;
+    padding: 8px;
+}
+  
+#students tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+#students tr:hover {
+    background-color: #ddd;
+}
+  
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6e0303;
+    color: white;
+}
